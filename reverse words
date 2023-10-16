@@ -1,0 +1,7 @@
+var str = prompt("Please enter your name");
+function ReverseString(str) {
+    return str.split('').reverse().join('')
+}
+ 
+// Function call
+console.log(ReverseString(str))
